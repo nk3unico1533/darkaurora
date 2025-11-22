@@ -1,3 +1,6 @@
+window.addEventListener("error", (e) => {
+  alert("ERRO: " + e.message);
+});
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
